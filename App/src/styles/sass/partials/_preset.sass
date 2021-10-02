@@ -10,6 +10,9 @@ body, html, #root
   font-family: 'Space Mono', 'sans-serif'
   @include breakpoint-up (medium)
 
+h1, h2, h3, h4, h5, h6
+  margin: 5px
+
 
 *, *::before, *::after
   box-sizing: border-box
@@ -18,7 +21,7 @@ body, html, #root
 
 .container
   @include flex-column (center, center)
-  padding: 10%
+  padding: 0
 
 
 
