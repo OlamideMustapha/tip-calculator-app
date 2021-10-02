@@ -6,7 +6,7 @@ body, html, #root
   padding: 0
   margin: 0
   font-size: $font-size-m
-  color: $white
+  background-color: $lightGrayishCyan-1
   font-family: 'Space Mono', 'sans-serif'
   @include breakpoint-up (medium)
 
@@ -17,7 +17,8 @@ body, html, #root
 
 
 .container
-  padding: 0
+  @include flex-column (center, center)
+  padding: 10%
 
 
 
